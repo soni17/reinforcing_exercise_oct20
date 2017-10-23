@@ -10,7 +10,8 @@ hash["tracks"].each do |track|
   total_duration_milliseconds += track["duration_in_milliseconds"]
 end
 
-total_duration_minutes = total_duration_milliseconds/60000
+
+total_duration_minutes = total_duration_milliseconds/60000.00
 puts "Total duration of playlist is #{total_duration_minutes} minutes"
 
 
